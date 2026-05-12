@@ -1,13 +1,16 @@
-# Python
+# Python bytecode
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 .Python
+
+# Build / packaging
 *.egg-info/
 dist/
 build/
 
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # Virtual environments
@@ -15,14 +18,6 @@ build/
 venv/
 env/
 ENV/
-
-# Data files
-*.csv
-*.db
-*.sqlite
-data/
-output/
-logs/
 
 # Credentials & secrets
 .env
